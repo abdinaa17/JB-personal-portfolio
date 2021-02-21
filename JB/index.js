@@ -40,5 +40,37 @@ window.addEventListener('click', (e) => {
 })
 
 
+// ScrollRevaels
+
+
+const scrollR = ScrollReveal({
+    origin: 'top',
+    distance: '80px',
+    duration: 2000, 
+    reset: true
+});
+
+
+scrollR.reveal('.text-wrapper',{}); 
+scrollR.reveal('.colored',{delay: 200}); 
+scrollR.reveal('.contact-wrapper',{delay: 400}); 
+
+
+
+scrollR.reveal('#projects h1',{}); 
+scrollR.reveal('.project',{}); 
+
+scrollR.reveal('.skills-title',{});
+scrollR.reveal('.skills-img',{});
+scrollR.reveal('.skills-desc',{});
+scrollR.reveal('.skills-more',{});
+scrollR.reveal('.footer-wrapper',{});
+
+
+
+
+
+
+
 
 
